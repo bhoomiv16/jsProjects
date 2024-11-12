@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="weather.css" />
+    <!-- <link rel="stylesheet" href="weather22.css"> -->
+  </head>
+  <body>
+    <div class="maindiv">
+      <div class="bgImage">
+        <div class="weather">
+          <input
+            type="text"
+            id="city"
+            name="searchCity"
+            placeholder="Enter city name"
+            spellcheck="false"
+          />
+          <button type="button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="weatherData">
+          <form action="">
+            <label for="temperature">Temperature:</label>
+            <input type="text" id="temperature" />
+            <label for="humidity">Humidity:</label>
+            <input type="text" id="humidity" />
+            <label for="wind">Wind Speed:</label>
+            <input type="text" id="wind" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
+  </body>
+</html>
